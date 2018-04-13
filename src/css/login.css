@@ -1,0 +1,80 @@
+.movement {
+    width: 400px;
+    height: 50px;
+    background-color:#d2691e;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+}
+#movement1 {-webkit-animation-timing-function: linear;}
+#movement1 {animation-timing-function: linear;}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+
+#example1 {
+    background-color: #fff8dc;
+    background-image: url(bardecoration.jpg);
+    padding: 15px;
+    background-size: cover;
+
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.imgtopleft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+img.logo {
+    padding-bottom: 18px;
+    width: 500px;
+}
+img.avatar {
+    width: 50%;
+    border-radius: 70%;
+}
